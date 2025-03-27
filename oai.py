@@ -7,7 +7,7 @@ load_dotenv()
 nvidia_api = os.environ.get("NVIDIA_API_KEY")
 model_name= "meta/llama-3.1-70b-instruct"
 
-
+#This is a function to call Open AI
 def process_data(data): 
     openai = OpenAI(
         organization="nvidia", 
