@@ -28,7 +28,7 @@ def process_data(data):
 
                 This is the data {data}.
         """
-    
+    # calling open ai api call
     response = openai.chat.completions.create(
         model=model_name, 
         messages= [{"role": "user", "content": prompt}], 
